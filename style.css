@@ -1,11 +1,13 @@
-h1 {color: black}
+h1 {color: red}
+h2 {color: white}
+h3 {color: white}
   
 body {
-      background-color: lightcyan
+      background-color: white
       }
 
       * {
-  box-sizing: border-box;
+  padding: 0px;
 }
 
 body {
@@ -23,27 +25,25 @@ body {
 /* Create three unequal columns that floats next to each other */
 .column {
   float: left;
-  padding: 10px;
+  padding: 10%;
   width: 100%;
-  background-color: #f1f1f1
+  background-image: url('/Images/achtergrond.jpg');
+  background-attachment: top;  
 
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
 
 /*onderste kolom */
 .footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color:black;
   padding: 10px;
   text-align: center;
+  
+  
 
 }
 
