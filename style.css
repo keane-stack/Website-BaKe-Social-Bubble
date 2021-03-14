@@ -1,11 +1,29 @@
-.navbarheader a {
-  padding: 14px 16px;
+.navbarheader a{
+  padding: 12px 1px;
   text-decoration: none;
   color: white;
   box-align: grid;
+ box-shadow: 
 
+ }
+
+nav a {
+  padding: 12px 1px;
+  text-decoration: none;
+  color: white;
+  box-align: grid;
+ box-shadow: 
 
 }
+
+nav li {
+  display: inline-block;
+  margin: 0px 10px
+}
+
+
+
+
 
 h1 {color: red}
 h2 {color: white}
