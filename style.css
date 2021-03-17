@@ -1,32 +1,6 @@
-.navbarheader a{
-  padding: 12px 1px;
-  text-decoration: none;
-  color: white;
-  box-align: grid;
- box-shadow: 
-
- }
-
-nav a {
-  padding: 12px 1px;
-  text-decoration: none;
-  color: white;
-  box-align: grid;
- box-shadow: 
-
-}
-
-nav li {
-  display: inline-block;
-  margin: 0px 10px
-}
-
-
-
-
 
 h1 {color: red}
-h2 {color: white}
+p {color: white}
 h3 {color: white}
   
 body {
@@ -50,15 +24,73 @@ body {
   position: fixed;
 }
 
+ nav a {
+   font-size: 20px;
+  padding: 12px 1px;
+  text-decoration: none;
+  color: white;
+  box-align: grid;
+}
+
+nav a:hover {
+  color: gray;
+}
+
+
+
+
+
+
+
+nav li {
+  display: inline-block;
+  margin: 0px 5px
+}
+
 /* Create three unequal columns that floats next to each other */
 .column {
 
-  width: 100vw;
-  height: 100vw;
+width: 80vw;
+height: auto;
+margin-top: 10vh;
+background-color: black;
+min-height: 100vh;
+margin-left: 10vw;
+margin-right: 10vw;
+
+text-align: center;
+
+
+
+
+
+
+}
+.row {
   background-image: url('/Images/achtergrond.jpg');
-  background-attachment: top;  
+ #bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
   background-size: 100%;
   background-repeat: no-repeat;
+
+#bg img {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+}
+
+
+  
   
   
 
@@ -84,7 +116,9 @@ body {
   box-align: grid;
   
 }
-  
+.navbarfooter a:hover {
+  color: gray;
+  }
 
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
