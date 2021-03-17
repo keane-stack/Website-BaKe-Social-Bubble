@@ -10,7 +10,7 @@ body {
       * {
   padding: 0px;
   margin: 0px;
-  box-sizing: 
+  box-sizing: border-box;
 }
 
 body {
@@ -20,9 +20,9 @@ body {
 
 
 .header {
-padding: 10px 20px;
-background-color: grey;
-  height: 7vw;
+padding: 20px 20px;
+background-color: black;
+  height: 5vw;
   text-align: left; 
  box-align: center;
   font-size: 35px;
@@ -31,25 +31,38 @@ background-color: grey;
  z-index: 2;
 
 }
- nav a {
+ .nav a {
    font-size: 20px;
-  padding: 12px 1px;
+  padding: 15px 5px;
   text-decoration: none;
   color: white;
   box-align: grid;
   box-sizing: ;
-  box-shadow:  0 1px 5px black;
+  box-shadow:  0 1px 5px white;
 }
 
-nav a:hover {
+.nav a:hover {
   color: gray;
 }
 
 
-nav li {
+.nav li {
   display: inline-block;
   margin: 0px 5px
 }
+
+
+
+.search-form{
+ 
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 10px;
+}
+
 
 /* Create three unequal columns that floats next to each other */
 .column {
@@ -108,7 +121,7 @@ text-align: center;
   min-height: 7vh;
   bottom: 0;
   width: 100%;
-  background-color:darkgray;
+  background-color: black;
 
   text-align: center;
   padding: 25px;
