@@ -50,10 +50,9 @@ nav li {
 .column {
 
 width: 80vw;
-height: auto;
 margin-top: 0vh;
-background-color: black;
-min-height: 100vh;
+background-color: grey;
+height: 100vh ;
 margin-left: 10vw;
 margin-right: 10vw;
 
@@ -68,6 +67,14 @@ text-align: center;
  position: sticky;
  size: 70%;
  width: 100%;
+ background-repeat: no-repeat;
+ background-position: fixed;
+ background-origin: content-box; 
+ background-attachment: scroll;
+ background-size: 100%;
+ 
+
+
  
   
 
