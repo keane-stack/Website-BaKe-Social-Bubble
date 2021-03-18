@@ -1,56 +1,59 @@
+*{padding: 0;
+  margin: 0;
+ }
 
 h1 {color: red}
-p {color: white}
-h3 {color: white}
+p {color: black}
+h3 {color: black}
+h4 {color: black}
   
 body {
+
  background-image: url(Images/achtergrond.jpg);
- padding: 0px;
- margin: 0px;
- background-repeat: repeat;
- background-size: 100%;
- background-position: center -60px;
- background-attachment: fixed;
-
- z-index: 0;
+ background-size: cover;
+ font-family: Arial, Helvetica, sans-serif;
+ 
 }
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 
 
 .header {
-padding: 20px 20px;
-background-color: black;
-  height: 7vw;
+  height: 10vh;
+  background-color: rgba(220, 220, 220, 0.9);
   text-align: left; 
- box-align: center;
+  box-align: center;
   font-size: 35px;
   position: top;
   width: 100%;
- z-index: 2;
+  z-index: 2;
+  
+}
+.nav ul li:hover{
+  background-color: rgba(205,228,220,255);
+ 
+  
+  
 
+}
+
+
+.nav {
+  padding: 20px 10px;
 }
  .nav a {
-   font-size: 20px;
-  padding: 15px 5px;
+  padding: 10px 10px;
+  font-size: 20px;
+ 
   text-decoration: none;
-  color: white;
+  color: black;
   box-align: grid;
-  box-sizing: ;
-  box-shadow:  0 1px 5px white;
-}
-
-.nav a:hover {
-  color: gray;
+ 
+  
 }
 
 
 .nav li {
-  display: inline-block;
-  margin: 0px 5px
+  display: inline-flex;
+  margin: 10px 5px;
 }
 
 
@@ -63,56 +66,60 @@ background-color: black;
   margin-top: 8px;
   margin-right: 16px;
   font-size: 10px;
+  align-items: center;
 }
 
 
-/* Create three unequal columns that floats next to each other */
+
 
 
 .container {
-  position: relative;
+  
+  overflow:auto;
 }
 
 /* Bottom right text */
 .text-block {
+ margin-top: 10%;
+ margin-bottom: 10%;
+ margin-right: 10%;
+ margin-left: 10%;
+ background-color:  rgba(220, 220, 220, 0.9);
+ border-radius: 25px;
+ padding: 10px;
  border: 5px solid black;
- margin-top: 5%;
-margin-bottom: 0%;
-margin-right: 5%;
-margin-left: 5%;
-  background-color: black;
-  border-radius: 50px;
  
-
-
-  
-  
   
 }
 
 /*onderste kolom */
 .footer {
-  position: absolute;
-  min-height: 7vh;
   bottom: 0;
+  text-align: center; 
+  box-align: center;
   width: 100%;
-  background-color: black;
-
-  text-align: center;
-  padding: 25px;
+  background-color: rgb(220, 220,220);
+  position: fixed;
+  padding: 20px;
+  
  
 }
 
 .navbarfooter a {
   
-  padding: 14px 16px;
+  padding: 20px 20px;
+  margin: 50px 0px;
   text-decoration: none;
   color: white;
   box-align: grid;
-  
+ 
+ 
 }
-.navbarfooter a:hover {
-  color: gray;
-  }
 
+.navbarfooter a:hover {
+  color: rgba(216,239,233,255);
+}
 </style>
+
+/*Over ons pagina*/
+
